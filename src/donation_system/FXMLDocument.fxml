@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="1394.0" style="-fx-background-color: #7b7bf6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donation_system.FXMLDocumentController">
+    <children>
+      <Text fill="#650606" layoutX="778.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="save life">
+         <font>
+            <Font name="Arial" size="37.0" />
+         </font>
+      </Text>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane />
+      <Pane prefHeight="161.0" prefWidth="1394.0" style="-fx-background-color: #c9b4bc;">
+         <children>
+            <ImageView fitHeight="161.0" fitWidth="236.0" layoutX="588.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ed-charity-graphic-white.gif" />
+               </image>
+            </ImageView>
+            <Button layoutX="1255.0" mnemonicParsing="false" onAction="#help" prefHeight="161.0" prefWidth="140.0" style="-fx-background-color: #4b050c;" text="donate" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="1115.0" mnemonicParsing="false" onAction="#help2" prefHeight="161.0" prefWidth="140.0" style="-fx-background-color: #75000c;" text="volunteer" textFill="#f5f3f3">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#sign_in_admin" prefHeight="161.0" prefWidth="157.0" style="-fx-background-color: #4b050c;" text="login As Admin" textFill="#f8f5f5">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="351.0" mnemonicParsing="false" onAction="#about_us" prefHeight="161.0" prefWidth="116.0" style="-fx-background-color: #363131;" text="About us" textFill="#f8f5f5">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="948.0" mnemonicParsing="false" onAction="#contact" prefHeight="161.0" prefWidth="167.0" style="-fx-background-color: #363131;" text="contact with us" textFill="#f8f5f5">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="157.0" mnemonicParsing="false" onAction="#sign_in" prefHeight="161.0" prefWidth="200.0" style="-fx-background-color: #75000c;" text="log in as volunteer" textFill="#f5f3f3">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Text fill="#14076b" layoutX="568.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="With you" wrappingWidth="235.63197326660156">
+         <font>
+            <Font name="Arial Bold" size="52.0" />
+         </font>
+      </Text>
+      <Text fill="#5e4165" layoutX="538.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Activities">
+         <font>
+            <Font name="Arial Bold" size="51.0" />
+         </font>
+      </Text>
+      <Text fill="#650606" layoutX="14.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sort used clothes">
+         <font>
+            <Font name="Arial" size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#650606" layoutX="433.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="feeding">
+         <font>
+            <Font name="Arial" size="37.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="161.0" fitWidth="323.0" layoutX="704.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images%20(1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="161.0" fitWidth="307.0" layoutX="356.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="161.0" fitWidth="260.0" layoutX="26.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Picture%20032.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#650606" layoutX="1074.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reconstruction of a poor village" wrappingWidth="285.8828125">
+         <font>
+            <Font name="Arial" size="37.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="161.0" fitWidth="323.0" layoutX="1097.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download%20(3).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="601.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="601.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>
